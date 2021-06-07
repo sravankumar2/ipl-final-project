@@ -1,0 +1,44 @@
+body{
+    background-color: white;
+}
+#team-name{
+    text-align: center;      
+}
+
+#players-card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;       
+    margin: 50px 50px;
+}
+.player-card{     
+    margin: 20px;
+    width:22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    box-shadow:4px 4px  #ccc ; 
+    background-color: #CEBCAE;
+    cursor: pointer;
+    border-radius: 2%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.player-card h2{
+    font-size:25px;
+    font-weight: 800;
+    font-style: italic; 
+    
+}
+.player-card h3{
+    font-size: 16px;
+    font-weight: 800;    
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+}
